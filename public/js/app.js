@@ -11,7 +11,7 @@ var ready = function() {
   AppMan.App = AppMan.App || {};
   // Initialize application
   AppMan.Init = (function() {
-    //Modules
+    AppMan.App.Navbar.Init();
   })();
 
 
